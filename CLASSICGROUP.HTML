@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flyer Showcase</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Landing Section -->
+    <section class="landing">
+        <h1>WELCOME TO CLASSIC GROUP</h1>
+        <button onclick="scrollToFlyers()">Enter</button>
+    </section>
+
+    <!-- Flyer Section -->
+    <section id="flyer-section">
+        <h2>SUBSIDIARIES</h2>
+        <div class="flyer-container">
+            <img src="/img/IMG-1of1.jpg" alt="Flyer 1">
+            <img src="/img/IMG-2.jpg" alt="Flyer 2">
+            <img src="/img/IMG-3.jpg" alt="Flyer 3">
+            <img src="/img/IMG-CM.jpg" alt="Flyer 3">
+            <img src="/img/IMG-5.jpg" alt="Flyer 3">
+            <img src="/img/IMG-6.jpg" alt="Flyer 3">
+            <img src="/img/IMG-RE.jpg" alt="Flyer 3">
+        </div>
+    </section>
+
+    <script>
+        function scrollToFlyers() {
+            document.getElementById("flyer-section").scrollIntoView({ behavior: "smooth" });
+        }
+    </script>
+
+</body>
+</html>
